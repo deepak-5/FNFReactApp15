@@ -5,6 +5,7 @@ function EMIBreakupTable({ emi, data }) {
   const { loanAmount, loanTerm, interestRate } = data;
 
   // Convert interest rate to monthly rate
+    // eslint-disable-next-line
   const monthlyRate = interestRate / 100 / 12;
 
   // Calculate the total amount payable
