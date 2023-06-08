@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/109f4838-28e6-4d4a-8acc-c67f83081cbe/resourceGroups/FNFI-React/providers/Microsoft.Web/sites/FNFReactApp",
+  "appService.deploySubpath": "."
+}

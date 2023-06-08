@@ -1,0 +1,86 @@
+/* loanPage.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Container for the entire page */
+.loan-page-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Sidebar section */
+  .sidebar {
+    width: 25%;
+    background-color: #f8f9fa;
+    padding: 12px;
+  }
+  
+  /* Loan application form */
+  .form-container {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Loan application form title */
+  .form-title {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  /* List of form links */
+  .form-links {
+    padding: 0.75rem 1.25rem;
+  }
+  
+  /* Individual form link */
+  .form-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for form links */
+  .form-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Information section */
+  .information-section {
+    width: 75%;
+    background-color: #fff;
+    padding: 24px;
+  }
+  
+  /* Heading for information section */
+  .information-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* Paragraph for information section */
+  .information-paragraph {
+    margin-bottom: 16px;
+  }
+  
+  /* Additional styling for information section */
+  .information-section p {
+    color: #333;
+  }
+  
+  /* Additional styling for information section links */
+  .information-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .information-section a:hover {
+    text-decoration: underline;
+  }
+  
